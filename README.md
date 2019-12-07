@@ -9,6 +9,13 @@ This app is based on the following challenge:
 >    - jobs: each job is based on a quote $, and has a description of the work involved, and a job status which has three values: quoted, quote accepted, in progress, and complete. 
 >    - materials: individual consumable items used to do jobs, assume that materials are bought only for a specific job, materials must have a cost per unit, the quantity bought, quantity used.
 
+## ERD
+
+![Entity Relationship diagram](Entity-Relationship-Diagram-Builder-App.png)
+
+* One customer to many jobs
+* One job to many materials
+
 ## Features
 
 * database functions to insert records for different entities split into separate files
